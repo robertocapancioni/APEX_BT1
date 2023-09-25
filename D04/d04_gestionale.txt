@@ -22,4 +22,4 @@ vendita
   cliente_id  /nn
   prodotto_id /nn
   quantita num /nn
-# settings = { prefix: "D03", onDelete: "RESTRICT", semantics: "CHAR", drop: true, language: "EN", APEX: true }
+# settings = { prefix: "D04", onDelete: "RESTRICT", semantics: "CHAR", drop: true, language: "EN", APEX: true }
