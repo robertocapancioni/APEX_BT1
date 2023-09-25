@@ -1,0 +1,25 @@
+tipo prodotto
+  tipo prodotto vc50 /nn /unique
+  gruppo vc50 /nn
+prodotto
+  prodotto vc50 /nn
+  prezzo acquisto num /nn
+  prezzo vendita num /nn
+  tipo_prodotto_id /nn
+cliente
+  cliente vc50 /nn /unique
+  zona vc10 /nn
+fornitore
+  fornitore vc50 /nn /unique
+  zona vc50 /nn
+acquisto
+  data d /nn
+  fornitore_id /nn
+  prodotto_id /nn
+  quantita num /nn
+vendita
+  data d /nn
+  cliente_id  /nn
+  prodotto_id /nn
+  quantita num /nn
+# settings = { prefix: "D03", onDelete: "RESTRICT", semantics: "CHAR", drop: true, language: "EN", APEX: true }
