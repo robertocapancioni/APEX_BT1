@@ -1,4 +1,5 @@
 persona
-  nome vc20 /nn
+  nome vc20 /nn /unique
   foto file
-# settings = { prefix: "D9" }
+
+# settings = { prefix:d09 }
